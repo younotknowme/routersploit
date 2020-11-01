@@ -3,7 +3,7 @@
 from __future__ import print_function
 import logging.handlers
 import sys
-if sys.version_info.major < 3:
+if sys.version_info.major < 2:
     print("RouterSploit supports only Python3. Rerun application in Python3 environment.")
     exit(0)
 
